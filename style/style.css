@@ -28,24 +28,7 @@ table{border-collapse:collapse;border-spacing:0}
 
 
 
-.header__left{
-    width: 32px;
-    height: 57px;
-    opacity: 0.7;
-    background-color: #f5c506;
-}
-.header__left span{
 
-}
-.header__right{
-    width: 32px;
-    height: 57px;
-    opacity: 0.7;
-    background-color: #f5c506;
-}
-.header__right span{
-
-}
 .header__main{
     display: flex;
     justify-content: space-between; 
@@ -147,4 +130,34 @@ table{border-collapse:collapse;border-spacing:0}
     width: 549px;
 height: 327px;
 opacity: 0.1;
+}
+
+
+
+.info{
+ margin: 61px 0 38px 0;
+ border-color: #f6f6f6;
+}
+.info__row{
+    display: flex;
+    justify-content: space-around;
+
+}
+.item__img{
+    width: 91px;
+    height: 95px;
+    margin-left: 25px;
+}
+.info__item{
+    text-align: center;
+}
+.item__text{
+    margin-top: 10px;
+    font-family: 'Segoe UI';
+    font-size: 27.1px;
+    line-height: 1.2;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+    color: #000000;
 }
