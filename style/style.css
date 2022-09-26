@@ -6,7 +6,7 @@ html{height:100%}
 
 body{line-height:1}
 
-ol,ul{list-style:none}
+/*ol,ul{list-style:none}*/
 
 blockquote,q{quotes:none}
 
@@ -235,4 +235,74 @@ opacity: 0.1;
     color: #b26529;
     position: relative;
     top: 12px;
+}
+
+
+.advantage{
+    background-image: url(../img/layer_32_344.png); 
+    height: 499px;  
+    padding-top: 48px;
+}
+.advantage_title{
+    font-family: 'PT Sans';
+    font-size: 43.1px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+    color: #f5c506;
+    text-align: center;
+}
+.advantage__content{
+    display: flex;
+}
+.advantage__technique{
+    display: flex;
+    
+}
+.technique__free{
+    width: 116px;
+    height: 116px;
+    border-radius: 50%;
+    background-color: #f5c506;
+    text-align: center;
+    position: relative;
+    top:75px;
+    right: 20px;
+}
+.technique__free p{
+    font-family: 'PT Sans Narrow';
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    position: relative;
+    top: 50px;
+}
+.advantage__technique img{
+    margin: 0 10px;
+}
+.advantage__list{
+    margin-left: 80px;
+    margin-top: 165px;
+}
+.advantage__list li{
+    color:#f5c506;
+    margin-top: 13px;
+}
+.advantage__list span{
+    font-family: 'Open Sans';
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: #a9a9a7;
+}
+.img2{
+    margin-top: 158px;
+}
+.img3{
+    margin-top: 269px;
 }
