@@ -165,29 +165,74 @@ opacity: 0.1;
 
 .content{
     background-image: url(../img/layers2.png);
-    height: 509px;;
+    height: 509px;
+    padding-top:42px;
 }
 .content__header{
+    font-family: 'PT Sans';
     font-size: 37.1px;
     line-height: 1.2;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.01em;
     color: #ffffff;
+    margin-bottom:40px;
 }
 .content__social{
-    
+    display: flex;
+
 }
 .social__text{
     background-color: #ec9e03;
+    width: 341px;
+    height: 233px;
+    
+}
+.social__text p{
+    font-family: 'Segoe WP';
+    font-size: 29.1px;
+    line-height: 38px;
+    font-weight: 300;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    margin: 25px 38px 34px 31px;
+   
 }
 .social__video{
-    width: 315px;
-    height: 232px;
+  margin: 0 -79px 0 -34px ;
 }
 .social__network{
     background-color: #ec9e03;
+    width: 329px;
+    height: 233px;
+    
+}
+.social__network img{
+   margin: 59px 83px 41px 83px;
 }
 .content__date{
-
+    background-color: #ddb101;
+    width: 113px;
+    height: 86px;
+    text-align: center;
+}
+.date__number{
+    font-family: 'Segoe UI';
+    font-size: 51.1px;
+    line-height: 38px;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    position: relative;
+    top: 12px;
+}
+.date__month{
+    font-family: 'Segoe UI';
+    font-size: 21.1px;
+    line-height: 38px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: #b26529;
+    position: relative;
+    top: 12px;
 }
