@@ -161,3 +161,33 @@ opacity: 0.1;
     letter-spacing: 0.01em;
     color: #000000;
 }
+
+
+.content{
+    background-image: url(../img/layers2.png);
+    height: 509px;;
+}
+.content__header{
+    font-size: 37.1px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+}
+.content__social{
+    
+}
+.social__text{
+    background-color: #ec9e03;
+}
+.social__video{
+    width: 315px;
+    height: 232px;
+}
+.social__network{
+    background-color: #ec9e03;
+}
+.content__date{
+
+}
