@@ -4,7 +4,10 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{di
 
 html{height:100%}
 
-body{line-height:1}
+body{
+    line-height:1;
+    min-width: 1020px;
+}
 
 /*ol,ul{list-style:none}*/
 
@@ -14,6 +17,10 @@ blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
 
 table{border-collapse:collapse;border-spacing:0}
 
+
+body{
+    
+}
 
 .header{
     background-image: url(../img/layer_20_222.png);
